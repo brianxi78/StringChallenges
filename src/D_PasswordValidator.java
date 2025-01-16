@@ -23,7 +23,7 @@ public class D_PasswordValidator {
     public boolean isValidPassword(String password) {
         /* TODO: your code goes here */
 
-        boolean passwordIsGood = false;
+        boolean passwordIsGood = false; //
         for(char c: password.toCharArray()){
             if(Character.isUpperCase(c)){
                 System.out.println("111");
